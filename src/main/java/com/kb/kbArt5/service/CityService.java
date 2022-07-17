@@ -9,5 +9,5 @@ public interface CityService {
 
     public City fetchCityById(Long cityId);
 
-    public City fetchCityByName(String cityName);
+    public List<City> fetchCityByName(String cityName);
 }

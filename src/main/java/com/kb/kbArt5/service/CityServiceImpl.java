@@ -24,7 +24,7 @@ public class CityServiceImpl implements CityService{
     }
 
     @Override
-    public City fetchCityByName(String cityName) {
+    public List<City> fetchCityByName(String cityName) {
         return cityRepository.findBycityIgnoreCase(cityName);
     }
 }

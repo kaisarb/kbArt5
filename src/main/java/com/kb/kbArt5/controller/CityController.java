@@ -26,7 +26,7 @@ public class CityController {
     }
 
     @GetMapping("/cities/name/{name}")
-    public City fetchCityByName(@PathVariable("name") String cityName) {
+    public List<City> fetchCityByName(@PathVariable("name") String cityName) {
         return cityService.fetchCityByName(cityName);
     }
 
