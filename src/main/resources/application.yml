@@ -1,0 +1,9 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sakila
+    username: root
+    password: qwerty
